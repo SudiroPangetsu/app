@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Form Masks | Uplon - Responsive Bootstrap 4 Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Responsive bootstrap 4 admin template" name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            @@include('./partials/topbar.html')
+
+            @@include('./partials/left-sidebar.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Uplon</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Forms</a></li>
+                                            <li class="breadcrumb-item active">Form Masks</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Form Masks</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card-box">
+
+                                    <div>
+                                        <h4 class="header-title">Input Masks</h4>
+                                        <p class="sub-header mb-0">
+                                            Your awesome text goes here.Your awesome text goes here.
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="mt-4">
+                                                    <form action="#">
+                                                        <div class="form-group">
+                                                            <label>ISBN 1</label>
+                                                            <input type="text" placeholder="" data-mask="999-99-999-9999-9" class="form-control">
+                                                            <span class="font-13 text-muted">e.g "999-99-999-9999-9"</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>ISBN 2</label>
+                                                            <input type="text" placeholder="" data-mask="999 99 999 9999 9" class="form-control">
+                                                            <span class="font-13 text-muted">999 99 999 9999 9</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>ISBN 3</label>
+                                                            <input type="text" placeholder="" data-mask="999/99/999/9999/9" class="form-control">
+                                                            <span class="font-13 text-muted">999/99/999/9999/9</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>IPV4</label>
+                                                            <input type="text" placeholder="" data-mask="999.999.999.9999" class="form-control">
+                                                            <span class="font-13 text-muted">192.168.110.310</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>IPV6</label>
+                                                            <input type="text" placeholder="" data-mask="9999:9999:9999:9:999:9999:9999:9999" class="form-control">
+                                                            <span class="font-13 text-muted">4deg:1340:6547:2:540:h8je:ve73:98pd</span>
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6">
+                                                <div class="mt-4">
+                                                    <form action="#">
+
+                                                        <div class="form-group">
+                                                            <label>Tax ID</label>
+                                                            <input type="text" placeholder="" data-mask="99-9999999" class="form-control">
+                                                            <span class="font-13 text-muted">99-9999999</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Phone</label>
+                                                            <input type="text" placeholder="" data-mask="(999) 999-9999" class="form-control">
+                                                            <span class="font-13 text-muted">(999) 999-9999</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Currency</label>
+                                                            <input type="text" placeholder="" data-mask="$ 999,999,999.99" class="form-control">
+                                                            <span class="font-13 text-muted">$ 999,999,999.99</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Date</label>
+                                                            <input type="text" placeholder="" data-mask="99/99/9999" class="form-control">
+                                                            <span class="font-13 text-muted">dd/mm/yyyy</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Date 2</label>
+                                                            <input type="text" placeholder="" data-mask="99-99-9999" class="form-control">
+                                                            <span class="font-13 text-muted">dd-mm-yyyy</span>
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    
+
+                                    <div class="mt-5">
+                                        <h4 class="header-title">Auto Numberic</h4>
+                                        <p class="sub-header mb-0">
+                                            Your awesome text goes here.Your awesome text goes here.
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="mt-4">
+                                                    <form action="#">
+                                                        <div class="form-group">
+                                                            <label>Default</label>
+                                                            <input type="text" placeholder="" class="form-control autonumber" data-a-sep="." data-a-dec=",">
+                                                            <span class="font-13 text-muted">e.g. "1.234.567.890.123"</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Auto Numeric ($)</label>
+                                                            <input type="text" placeholder="" data-a-sign="$ " class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "$ $ 1,234,567,890,123"</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Auto Numeric (€)</label>
+                                                            <input type="text" placeholder="" data-a-sign="€ " class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "€ 1,234,567,890,123"</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Auto Numeric (Rs.)</label>
+                                                            <input type="text" placeholder="" data-a-sign="Rs. " class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "Rs. 1,234,567,890,123"</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>4 digit Group (¥)</label>
+                                                            <input type="text" placeholder="" data-d-group="4" data-a-sign="¥ " class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "¥ 1,2345,6789,0123"</span>
+                                                        </div>
+
+                                                    </form>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6">
+                                                <div class="mt-4">
+                                                    <form action="#">
+                                                        <div class="form-group">
+                                                            <label>Auto Numeric (£)</label>
+                                                            <input type="text" placeholder="" data-a-sign="£ " class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "£ 1,234,567,890,123"</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Auto Numeric (%)</label>
+                                                            <input type="text" placeholder="" data-a-sign="%" data-p-sign="s" class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "11%"</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Maximum Value (0 - 9999)</label>
+                                                            <input type="text" placeholder="" data-v-max="9999" data-v-min="0" class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "9,999"</span>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label>Range Value (-99.99 - 1000.00)</label>
+                                                            <input type="text" placeholder="" data-v-min="-99.99" data-v-max="1000.00" class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "1000 Or -99.99"</span>
+                                                        </div>
+
+                                                        <div class="form-group mb-0">
+                                                            <label>Bracket Value</label>
+                                                            <input type="text" placeholder="" data-a-sep="." data-a-dec="," data-v-min="-9999.99" data-v-max="0.00" data-n-bracket="(,)" class="form-control autonumber">
+                                                            <span class="font-13 text-muted">e.g. "(9,999.00)"</span>
+                                                        </div>
+
+                                                    </form>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div><!-- end col-->
+
+                        </div>
+                        <!-- end row -->
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/right-sidebar.html')
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- Plugins js -->
+        <script src="assets/libs/jquery-mask-plugin/jquery.mask.min.js"></script>
+        <script src="assets/libs/autonumeric/autoNumeric.min.js"></script>
+
+        <!-- Init js-->
+        <script src="assets/js/pages/form-masks.init.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+
+        
+    </body>
+</html>

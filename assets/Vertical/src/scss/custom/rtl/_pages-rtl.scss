@@ -1,0 +1,33 @@
+//
+// pages-rtl.scss
+//
+
+// coming-soon
+
+.diamond{
+  .top{
+    &:before{
+      margin-left: 0px;
+      margin-right: -13px;
+      transform: skew(48deg);
+    }
+
+    &:after{
+      margin-left: 0px;
+      margin-right: 47px;
+      transform: skew(-48deg);
+    }
+  }
+  
+  .bot{
+    &:before{
+      margin-left: 0px;
+      margin-right: -27px;
+    }
+  }
+
+  &:after{
+    margin-left: 0px;
+    margin-right: 38px;
+  }
+}

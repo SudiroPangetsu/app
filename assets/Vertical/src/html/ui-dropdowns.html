@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Dropdowns | Uplon - Responsive Bootstrap 4 Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Responsive bootstrap 4 admin template" name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            @@include('./partials/topbar.html')
+
+            @@include('./partials/left-sidebar.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Uplon</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">UI Kit</a></li>
+                                            <li class="breadcrumb-item active">Dropdowns</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Dropdowns</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <!-- Row start -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-box">
+
+                                    <h4 class="header-title">Dropdowns Examples</h4>
+                                    <p class="sub-header">
+                                        Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re made interactive with the included Bootstrap dropdown JavaScript plugin.
+                                    </p>
+
+
+                                    <div class="row">
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div>
+                                                <h6>Button elements</h6>
+                                                <p class="sub-header">
+                                                    You can optionally use <code>&lt;button&gt;</code> elements in your dropdowns instead of <code>&lt;a&gt;</code>s.
+                                                </p>
+
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle float-left" type="button"
+                                                            id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                        Dropdown <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu dropdown-example" aria-labelledby="dropdownMenu1">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div>
+                                                <h6>Menu headers</h6>
+                                                <p class="sub-header">
+                                                    Add a header to label sections of actions in any dropdown menu.
+                                                </p>
+
+                                                <div class="dropdown-menu dropdown-example">
+                                                    <h6 class="dropdown-header mt-0">Dropdown header</h6>
+                                                    <a class="dropdown-item" href="#">Action</a>
+                                                    <a class="dropdown-item" href="#">Another action</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div>
+                                                <h6>Menu dividers</h6>
+
+                                                <p class="sub-header">
+                                                    Separate groups of related menu items with a divider.
+                                                </p>
+
+                                                <div class="dropdown-menu dropdown-example" aria-labelledby="dropdownMenu1">
+                                                    <a class="dropdown-item" href="#">Action</a>
+                                                    <a class="dropdown-item" href="#">Another action</a>
+                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Separated link</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div>
+                                                <h6>Disabled menu items</h6>
+
+                                                <p class="sub-header">
+                                                    Add <code>.disabled</code> to items in the dropdown to <strong>style them as disabled</strong>.
+                                                </p>
+    
+                                                <div class="dropdown-menu dropdown-example" aria-labelledby="dropdownMenu1">
+                                                    <a class="dropdown-item" href="#">Regular link</a>
+                                                    <a class="dropdown-item disabled" href="#">Disabled link</a>
+                                                    <a class="dropdown-item" href="#">Another link</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end row -->
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            
+                                            <div class="mt-5">
+                                                <h6>Variant</h6>
+                                                <div class="btn-group mr-1 mt-1">
+                                                    <button type="button" class="btn btn-primary dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropdown <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-group mr-1 mt-1">
+                                                    <button type="button" class="btn btn-success dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropdown <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-group mr-1 mt-1">
+                                                    <button type="button" class="btn btn-warning dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropdown <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-group mr-1 mt-1">
+                                                    <button type="button" class="btn btn-danger dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropdown <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+    
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            
+                                            <div class="mt-5">
+                                                <h6>Split button dropdowns</h6>
+                                                
+                                                <div class="btn-group mr-1 mt-1">
+                                                    <button type="button" class="btn btn-purple waves-effect waves-light">Dropdown</button>
+                                                    <button type="button" class="btn btn-purple dropdown-toggle dropdown-toggle-split waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group dropdown mr-1 mt-1">
+                                                    <button type="button" class="btn btn-pink waves-effect waves-light">Dropdown</button>
+                                                    <button type="button" class="btn btn-pink dropdown-toggle dropdown-toggle-split waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group mr-1 mt-1">
+                                                    <button type="button" class="btn btn-info waves-effect waves-light">Dropdown</button>
+                                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-group dropdown mr-1 mt-1">
+                                                    <button type="button" class="btn btn-primary waves-effect waves-light">Dropdown</button>
+                                                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- end row -->
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="mt-5">
+                                                <h6>Sizing</h6>
+                                                <!-- Large button groups -->
+                                                <div class="btn-group mt-1 mr-1">
+                                                    <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Large button <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <!-- Large button groups -->
+                                                <div class="btn-group mt-1 mr-1">
+                                                    <button class="btn btn-success btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Large button <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="mt-5">
+                                                <h6>Variation</h6>
+
+                                                <div class="btn-group dropdown mr-1 mt-1">
+                                                    <button type="button" class="btn btn-primary dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropdown <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-group dropup mr-1 mt-1">
+                                                    <button type="button" class="btn btn-purple dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropup <i class="mdi mdi-chevron-up"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-group dropleft mr-1 mt-1">
+                                                    <button type="button" class="btn btn-success dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <i class="mdi mdi-chevron-left"></i> Dropleft 
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-group dropright mr-1 mt-1">
+                                                    <button type="button" class="btn btn-pink dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropright <i class="mdi mdi-chevron-right"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div> <!-- end col -->
+
+                                    </div>
+                                    <!-- end row -->
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="mt-5">
+                                                <h6 class="mb-3">Dropdown menu text</h6>
+                                                <div class="dropdown-menu p-4 text-muted  dropdown-example" style="max-width: 240px;">
+                                                    <p>
+                                                        Some example text that's free-flowing within the dropdown menu.
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        And this is more example text.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="mt-5">
+                                                <h6 class="mb-3">Dropdown menu form</h6>
+                                                <form class="dropdown-menu dropdown-example p-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleDropdownFormEmail2">Email address</label>
+                                                        <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleDropdownFormPassword2">Password</label>
+                                                        <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                            <label class="custom-control-label" for="customCheck1">Remember me</label>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end row -->
+
+
+                                </div><!-- end card -->
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/right-sidebar.html')
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>

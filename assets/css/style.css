@@ -1,0 +1,60 @@
+* {
+	top: 0;
+	right: 0;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	margin: auto 250px;
+	top: 10px;
+	padding: 10px;
+	font-size: 0.5em;
+}
+
+.cop .cop-body {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	padding: 10px;
+}
+.cop .cop-body img {
+	width: 10px;
+	height: 10px;
+	left: 25px;
+}
+.cop .cop-body .text {
+	position: absolute;
+	left: 150px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+/* table style */
+.content .table table th {
+	text-align: left;
+	font-size: 10px;
+}
+
+.nomer table {
+	text-align: center;
+	border-collapse: collapse;
+}
+.nomer table {
+	border: solid 1px black;
+}
+.nomer table tr {
+	border: solid 1px black;
+}
+.nomer table th {
+	border: solid 1px black;
+}
+.nomer table td {
+	border: solid 1px black;
+}

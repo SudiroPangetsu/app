@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Navs | Uplon - Responsive Bootstrap 4 Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Responsive bootstrap 4 admin template" name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            @@include('./partials/topbar.html')
+
+            @@include('./partials/left-sidebar.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Uplon</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">UI Kit</a></li>
+                                            <li class="breadcrumb-item active">Navs</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Navs</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card-box">
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div>
+                                                <h4 class="header-title">Base nav</h4>
+                                                <p class="sub-header">
+                                                    Roll your own navigation style by extending the base .nav component. All Bootstrap’s nav components are built on top of this by specifying additional styles.
+                                                </p>
+    
+                                                <ul class="nav">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Another link</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link disabled" href="#">Disabled</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="mt-4 mt-lg-0">
+                                                <h4 class="header-title">Inline nav</h4>
+                                                <p class="sub-header">
+                                                    Easily space out nav links in a horizontal band with <code>.nav-inline</code>. Longer series of links will wrap to a new line.
+                                                </p>
+    
+                                                <nav class="nav nav-inline">
+                                                    <a class="nav-link active" href="#">Active</a>
+                                                    <a class="nav-link" href="#">Link</a>
+                                                    <a class="nav-link" href="#">Another link</a>
+                                                    <a class="nav-link disabled" href="#">Disabled</a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end row -->
+
+
+                                    <div class="row mt-4">
+                                        <div class="col-lg-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title">Stacked pills</h4>
+                                                <p class="sub-header">
+                                                    Just add <code class="highlighter-rouge">.nav-stacked</code> to the <code>.nav.nav-pills</code>.
+                                                </p>
+    
+                                                <ul class="nav nav-pills nav-stacked">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Another link</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link disabled" href="#">Disabled</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title">Tabs with dropdowns</h4>
+                                                <p class="sub-header">
+                                                    Add dropdown menus with a little extra HTML and the dropdowns JavaScript plugin.
+                                                </p>
+
+                                                <ul class="nav nav-tabs">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                                            role="button" aria-haspopup="true"
+                                                            aria-expanded="false">Dropdown <i class="mdi mdi-chevron-down"></i> </a>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Another action</a>
+                                                            <a class="dropdown-item" href="#">Something else here</a>
+                                                            <div class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#">Separated link</a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Another link</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link disabled" href="#">Disabled</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end row -->
+
+
+                                    <div class="row mt-4">
+                                        <div class="col-lg-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title mb-4">Default Tabs</h4>
+
+                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
+                                                            role="tab" aria-controls="home" aria-expanded="true">Home</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
+                                                            role="tab" aria-controls="profile">Profile</a>
+                                                    </li>
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                                            role="button" aria-haspopup="true" aria-expanded="false">
+                                                            Dropdown <i class="mdi mdi-chevron-down"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" id="dropdown1-tab" href="#dropdown1" role="tab"
+                                                                data-toggle="tab" aria-controls="dropdown1">@fat</a>
+                                                            <a class="dropdown-item" id="dropdown2-tab" href="#dropdown2" role="tab"
+                                                                data-toggle="tab" aria-controls="dropdown2">@mdo</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content text-muted" id="myTabContent">
+                                                    <div role="tabpanel" class="tab-pane fade in active show" id="home"
+                                                            aria-labelledby="home-tab">
+                                                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt
+                                                            tofu stumptown aliqua, retro synth master cleanse. Mustache cliche
+                                                            tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+                                                            keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry
+                                                            richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan
+                                                            aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="profile" role="tabpanel"
+                                                            aria-labelledby="profile-tab">
+                                                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla
+                                                            single-origin coffee squid. Exercitation +1 labore velit, blog sartorial
+                                                            PBR leggings next level wes anderson artisan four loko farm-to-table
+                                                            craft beer twee. Qui photo booth letterpress, commodo enim craft beer
+                                                            mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. sustainable
+                                                            beard ut DIY ethical culpa terry. Art party scenester stumptown.</p>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="dropdown1" role="tabpanel"
+                                                            aria-labelledby="dropdown1-tab">
+                                                        <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out
+                                                            mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.
+                                                            Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard
+                                                            locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR
+                                                            banksy irony. Scenester cred you probably haven't heard of
+                                                            them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth
+                                                            chambray yr.</p>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="dropdown2" role="tabpanel"
+                                                            aria-labelledby="dropdown2-tab">
+                                                        <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party
+                                                            before they sold out master cleanse gluten-free squid scenester freegan
+                                                            cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf
+                                                            cliche high. Cred vinyl keffiyeh DIY salvia PBR,
+                                                            banh mi before they sold out farm-to-table VHS viral locavore cosby
+                                                            sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft
+                                                            beer marfa ethical.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title mb-4">Nav Pills</h4>
+
+                                                <ul class="nav nav-pills" id="myTabalt" role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" id="home-tab1" data-toggle="tab" href="#home1"
+                                                            role="tab" aria-controls="home" aria-expanded="true">Home</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="profile-tab1" data-toggle="tab" href="#profile1"
+                                                            role="tab" aria-controls="profile">Profile</a>
+                                                    </li>
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                                            role="button" aria-haspopup="true" aria-expanded="false">
+                                                            Dropdown <i class="mdi mdi-chevron-down"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" id="dropdown1-tab1" href="#dropdown1-alt" role="tab"
+                                                                data-toggle="tab" aria-controls="dropdown1">@fat</a>
+                                                            <a class="dropdown-item" id="dropdown2-tab1" href="#dropdown2-alt" role="tab"
+                                                                data-toggle="tab" aria-controls="dropdown2">@mdo</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content text-muted" id="myTabaltContent">
+                                                    <div role="tabpanel" class="tab-pane fade in active show" id="home1"
+                                                            aria-labelledby="home-tab">
+                                                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt
+                                                            tofu stumptown aliqua, retro synth master cleanse. Mustache cliche
+                                                            tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+                                                            keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry
+                                                            richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan
+                                                            aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="profile1" role="tabpanel"
+                                                            aria-labelledby="profile-tab">
+                                                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla
+                                                            single-origin coffee squid. Exercitation +1 labore velit, blog sartorial
+                                                            PBR leggings next level wes anderson artisan four loko farm-to-table
+                                                            craft beer twee. Qui photo booth letterpress, commodo enim craft beer
+                                                            mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud
+                                                            organic, assumenda labore aesthetic magna delectus mollit.</p>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="dropdown1-alt" role="tabpanel"
+                                                            aria-labelledby="dropdown1-tab">
+                                                        <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out
+                                                            mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.
+                                                            Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard
+                                                            locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR
+                                                            banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg
+                                                            banh mi whatever gluten-free, carles pitchfork fixie.</p>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="dropdown2-alt" role="tabpanel"
+                                                            aria-labelledby="dropdown2-tab">
+                                                        <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party
+                                                            before they sold out master cleanse gluten-free squid scenester freegan
+                                                            cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf
+                                                            cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR,
+                                                            banh mi before they sold out farm-to-table VHS viral locavore cosby
+                                                            sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft
+                                                            beer marfa ethical. Wolf salvia freegan sartorial keffiyeh.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- end row -->
+
+                                    <div class="row mt-4">
+                                        <div class="col-xl-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title mb-4">Tabs Vertical Left</h4>
+                    
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <div class="nav flex-column nav-pills nav-pills-tab" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                            <a class="nav-link active show mb-2" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                                                                aria-selected="true">
+                                                                Home</a>
+                                                            <a class="nav-link mb-2" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                                                aria-selected="false">
+                                                                Profile</a>
+                                                            <a class="nav-link mb-2" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                                aria-selected="false">
+                                                                Messages</a>
+                                                            <a class="nav-link mb-2" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                                                                aria-selected="false">
+                                                                Settings</a>
+                                                        </div>
+                                                    </div> <!-- end col-->
+                                                    <div class="col-sm-9">
+                                                        <div class="tab-content text-muted pt-0">
+                                                            <div class="tab-pane fade active show" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                                                <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt
+                                                                    do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit
+                                                                    excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit
+                                                                    mollit pariatur. Deserunt non laborum enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</p>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                                                <p>Culpa dolor voluptate do laboris laboris irure reprehenderit id incididunt duis pariatur mollit aute magna
+                                                                    pariatur consectetur. Eu veniam duis non ut dolor deserunt commodo et minim in quis laboris ipsum velit
+                                                                    id veniam. Quis ut consectetur adipisicing officia excepteur non sit. Ut et elit aliquip labore Lorem
+                                                                    enim eu. Ullamco mollit occaecat dolore ipsum id officia mollit qui esse anim eiusmod do sint minim consectetur
+                                                                    qui.</p>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                                                <p>Fugiat id quis dolor culpa eiusmod anim velit excepteur proident dolor aute qui magna. Ad proident laboris
+                                                                    ullamco esse anim Lorem Lorem veniam quis Lorem irure occaecat velit nostrud magna nulla. Velit et et
+                                                                    proident Lorem do ea tempor officia dolor. Reprehenderit Lorem aliquip labore est magna commodo est ea
+                                                                    veniam consectetur.</p>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                                                <p>Eu dolore ea ullamco dolore Lorem id cupidatat excepteur reprehenderit consectetur elit id dolor proident
+                                                                    in cupidatat officia. Voluptate excepteur commodo labore nisi cillum duis aliqua do. Aliqua amet qui
+                                                                    mollit consectetur nulla mollit velit aliqua veniam nisi id do Lorem deserunt amet. Culpa ullamco sit
+                                                                    adipisicing labore officia magna elit nisi in aute tempor commodo eiusmod.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div> <!-- end col-->
+                                                </div> <!-- end row-->
+                                                
+                                            </div> <!-- end card-box-->
+                                        </div> <!-- end col -->
+                    
+                                        <div class="col-xl-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title mb-4">Tabs Vertical Right</h4>
+                    
+                                                <div class="row">
+                                                    <div class="col-sm-9">
+                                                        <div class="tab-content text-muted pt-0" id="v-pills-tabContent">
+                                                            <div class="tab-pane fade active show" id="v-pills-home2" role="tabpanel" aria-labelledby="v-pills-home-tab2">
+                                                                <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt
+                                                                    do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit
+                                                                    excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit
+                                                                    mollit pariatur. Deserunt non laborum enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</p>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="v-pills-profile2" role="tabpanel" aria-labelledby="v-pills-profile-tab2">
+                                                                <p>Culpa dolor voluptate do laboris laboris irure reprehenderit id incididunt duis pariatur mollit aute magna
+                                                                    pariatur consectetur. Eu veniam duis non ut dolor deserunt commodo et minim in quis laboris ipsum velit
+                                                                    id veniam. Quis ut consectetur adipisicing officia excepteur non sit. Ut et elit aliquip labore Lorem
+                                                                    enim eu. Ullamco mollit occaecat dolore ipsum id officia mollit qui esse anim eiusmod do sint minim consectetur
+                                                                    qui.</p>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="v-pills-messages2" role="tabpanel" aria-labelledby="v-pills-messages-tab2">
+                                                                <p>Fugiat id quis dolor culpa eiusmod anim velit excepteur proident dolor aute qui magna. Ad proident laboris
+                                                                    ullamco esse anim Lorem Lorem veniam quis Lorem irure occaecat velit nostrud magna nulla. Velit et et
+                                                                    proident Lorem do ea tempor officia dolor. Reprehenderit Lorem aliquip labore est magna commodo est ea
+                                                                    veniam consectetur.</p>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel" aria-labelledby="v-pills-settings-tab2">
+                                                                <p>Eu dolore ea ullamco dolore Lorem id cupidatat excepteur reprehenderit consectetur elit id dolor proident
+                                                                    in cupidatat officia. Voluptate excepteur commodo labore nisi cillum duis aliqua do. Aliqua amet qui
+                                                                    mollit consectetur nulla mollit velit aliqua veniam nisi id do Lorem deserunt amet. Culpa ullamco sit
+                                                                    adipisicing labore officia magna elit nisi in aute tempor commodo eiusmod.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                    <div class="col-sm-3">
+                                                        <div class="nav flex-column nav-pills nav-pills-tab" id="v-pills-tab2" role="tablist" aria-orientation="vertical">
+                                                            <a class="nav-link active show mb-2" id="v-pills-home-tab2" data-toggle="pill" href="#v-pills-home2" role="tab" aria-controls="v-pills-home2"
+                                                                aria-selected="true">
+                                                                Home</a>
+                                                            <a class="nav-link mb-2" id="v-pills-profile-tab2" data-toggle="pill" href="#v-pills-profile2" role="tab" aria-controls="v-pills-profile2"
+                                                                aria-selected="false">
+                                                                Profile</a>
+                                                            <a class="nav-link mb-2" id="v-pills-messages-tab2" data-toggle="pill" href="#v-pills-messages2" role="tab" aria-controls="v-pills-messages2"
+                                                                aria-selected="false">
+                                                                Messages</a>
+                                                            <a class="nav-link mb-2" id="v-pills-settings-tab2" data-toggle="pill" href="#v-pills-settings2" role="tab" aria-controls="v-pills-settings2"
+                                                                aria-selected="false">
+                                                                Settings</a>
+                                                        </div>
+                                                    </div> <!-- end col -->
+                                                </div> <!-- end row-->
+                    
+                                            </div> <!-- end card-box-->
+                                        </div> <!-- end col -->
+                                    </div>
+                                    <!-- end row -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/right-sidebar.html')
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>

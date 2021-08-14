@@ -1,0 +1,18 @@
+
+/* =============
+   Form validation
+============= */
+
+.parsley-error {
+  border-color: $danger !important;
+}
+.parsley-errors-list {
+  margin: 0;
+  padding: 0;
+  > li {
+    font-size: 12px;
+    list-style: none;
+    color: $danger;
+    margin-top: 5px;
+  }
+}

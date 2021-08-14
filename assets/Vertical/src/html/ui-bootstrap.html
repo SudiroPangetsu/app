@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Bootstrap UI | Uplon - Responsive Bootstrap 4 Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Responsive bootstrap 4 admin template" name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            @@include('./partials/topbar.html')
+
+            @@include('./partials/left-sidebar.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Uplon</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">UI Kit</a></li>
+                                            <li class="breadcrumb-item active">Bootstrap UI</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Bootstrap UI</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title -->
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card-box">
+        
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div>
+                                                <h4 class="header-title">Badges Contextual variations</h4>
+                                                <p class="sub-header">
+                                                    Provide pagination links for your site or app with the multi-page pagination component.
+                                                </p>
+        
+                                                <span class="badge badge-primary">Primary</span>
+                                                <span class="badge badge-success">Success</span>
+                                                <span class="badge badge-info">Info</span>
+                                                <span class="badge badge-warning">Warning</span>
+                                                <span class="badge badge-danger">Danger</span>
+                                                <span class="badge badge-purple">Purple</span>
+                                                <span class="badge badge-pink">Pink</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col-lg-6">
+                                            <div class="mt-4 mt-lg-0">
+                                                <h4 class="header-title">Pill Badges</h4>
+                                                <p class="sub-header">
+                                                    Provide pagination links for your site or app with the multi-page pagination component.
+                                                </p>
+        
+                                                <span class="badge badge-pill badge-primary">Primary</span>
+                                                <span class="badge badge-pill badge-success">Success</span>
+                                                <span class="badge badge-pill badge-info">Info</span>
+                                                <span class="badge badge-pill badge-warning">Warning</span>
+                                                <span class="badge badge-pill badge-danger">Danger</span>
+                                                <span class="badge badge-pill badge-purple">Purple</span>
+                                                <span class="badge badge-pill badge-pink">Pink</span>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                    <!-- end row -->
+        
+                                    <div class="row mt-4">
+        
+                                        <!-- Pagination -->
+                                        <div class="col-lg-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title">Pagination</h4>
+                                                <p class="sub-header">
+                                                    Provide pagination links for your site or app with the multi-page pagination component.
+                                                </p>
+        
+                                                <div>
+                                                    <h5 class="font-13 mb-1">Default Pagination</h5>
+                                                    <p class="sub-header">
+                                                        Simple pagination inspired by Rdio, great for apps and search results.
+                                                    </p>
+                                                    <nav>
+                                                        <ul class="pagination">
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#" aria-label="Previous">
+                                                                    <span aria-hidden="true">&laquo;</span>
+                                                                    <span class="sr-only">Previous</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#" aria-label="Next">
+                                                                    <span aria-hidden="true">&raquo;</span>
+                                                                    <span class="sr-only">Next</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </nav>
+        
+                                                    <h5 class="font-13 mb-1">Split Pagination</h5>
+                                                    <p class="sub-header">
+                                                        Links are split to each other by adding a class of <code>
+                                                        .pagination-split</code>
+                                                    </p>
+                                                    <nav>
+                                                        <ul class="pagination pagination-split">
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#" aria-label="Previous">
+                                                                    <span aria-hidden="true">&laquo;</span>
+                                                                    <span class="sr-only">Previous</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#" aria-label="Next">
+                                                                    <span aria-hidden="true">&raquo;</span>
+                                                                    <span class="sr-only">Next</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </nav>
+        
+                                                    <h5 class="font-13 mb-1">Sizing</h5>
+                                                    <p class="sub-header">
+                                                        Add <code>
+                                                        .pagination-lg</code>
+                                                        or <code>
+                                                        .pagination-sm</code>
+                                                        for additional sizes.
+                                                    </p>
+                                                    <nav>
+                                                        <ul class="pagination pagination-lg">
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#" aria-label="Previous">
+                                                                    <span aria-hidden="true">&laquo;</span>
+                                                                    <span class="sr-only">Previous</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#" aria-label="Next">
+                                                                    <span aria-hidden="true">&raquo;</span>
+                                                                    <span class="sr-only">Next</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </nav>
+        
+                                                    <h5 class="font-13 mb-1">Alignment</h5>
+                                                    <p class="sub-header">
+                                                        Change the alignment of pagination components with flexbox utilities.
+                                                    </p>
+        
+                                                    <nav aria-label="Page navigation example">
+                                                        <ul class="pagination justify-content-center">
+                                                            <li class="page-item disabled">
+                                                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#">Next</a>
+                                                            </li>
+                                                        </ul>
+                                                    </nav>
+        
+                                                    <nav aria-label="Page navigation example">
+                                                        <ul class="pagination justify-content-end">
+                                                            <li class="page-item disabled">
+                                                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                            <li class="page-item">
+                                                                <a class="page-link" href="#">Next</a>
+                                                            </li>
+                                                        </ul>
+                                                    </nav>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+        
+                                    </div>
+        
+        
+                                    <div class="row mt-4">
+        
+                                        <!-- Pagination -->
+                                        <div class="col-12">
+                                            <div class="mt-4">
+                                                <h4 class="header-title">Breadcrumb</h4>
+                                                <p class="sub-header">
+                                                    Indicate the current page’s location within a navigational hierarchy.
+                                                </p>
+        
+                                                <ol class="breadcrumb">
+                                                    <li class="breadcrumb-item active">Home</li>
+                                                </ol>
+                                                <ol class="breadcrumb">
+                                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                                    <li class="breadcrumb-item active">Library</li>
+                                                </ol>
+                                                <ol class="breadcrumb">
+                                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                                    <li class="breadcrumb-item active">Data</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+        
+                                    </div>
+                                    <!-- end row -->
+        
+        
+                                    <div class="row">
+        
+                                        <!-- Pagination -->
+                                        <div class="col-12">
+                                            <div class="mt-4">
+                                                <h4 class="header-title">Tooltips</h4>
+                                                <p class="sub-header">
+                                                    Hover over the buttons below to see their tooltips.
+                                                </p>
+        
+                                                <div class="button-list">
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip"
+                                                            data-placement="top" title="Tooltip on top">
+                                                        Tooltip on top
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip"
+                                                            data-placement="right" title="Tooltip on right">
+                                                        Tooltip on right
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip"
+                                                            data-placement="bottom" title="Tooltip on bottom">
+                                                        Tooltip on bottom
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="tooltip"
+                                                            data-placement="left" title="Tooltip on left">
+                                                        Tooltip on left
+                                                    </button>
+                                                </div>
+                                            </div>
+        
+                                        </div>
+                                        <!-- end col -->
+        
+                                    </div>
+                                    <!-- end row -->
+        
+        
+        
+                                    <div class="row mt-4">
+        
+                                        <!-- Pagination -->
+                                        <div class="col-12">
+                                            <div class="mt-4">
+                                                <h4 class="header-title">Popovers</h4>
+                                                <p class="sub-header">
+                                                    Indicate the current page’s location within a navigational hierarchy.
+                                                </p>
+        
+                                                <div class="button-list">
+                                                    <button type="button" class="btn btn-secondary" data-container="body"
+                                                            data-toggle="popover" data-placement="top"
+                                                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+                                                            data-original-title="Popover title">
+                                                        Popover on top
+                                                    </button>
+        
+                                                    <button type="button" class="btn btn-secondary" data-container="body"
+                                                            data-toggle="popover" data-placement="right"
+                                                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+                                                            data-original-title="Popover title">
+                                                        Popover on right
+                                                    </button>
+        
+                                                    <button type="button" class="btn btn-secondary" data-container="body"
+                                                            data-toggle="popover" data-placement="bottom"
+                                                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+                                                            data-original-title="Popover title">
+                                                        Popover on bottom
+                                                    </button>
+        
+                                                    <button type="button" class="btn btn-secondary" data-container="body"
+                                                            data-toggle="popover" data-placement="left"
+                                                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+                                                            data-original-title="Popover title">
+                                                        Popover on left
+                                                    </button>
+        
+                                                    <a tabindex="0" class="btn btn-success" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+        
+                                    </div>
+                                    <!-- end row -->
+        
+                                    <div class="row mt-4">
+                                        <!-- Badges -->
+                                        <div class="col-lg-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title">Border spinner</h4>
+                                                <p class="sub-header">
+                                                    Use the border spinners for a lightweight loading indicator.
+                                                </p>
+            
+                                                <div class="">
+                                                    <div class="spinner-border text-primary m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-border text-secondary m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-border text-success m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-border text-info m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-border text-warning m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-border text-danger m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-border text-purple m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-border text-pink m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+        
+                                        <!-- Badge -->
+                                        <div class="col-lg-6">
+                                            <div class="mt-4">
+                                                <h4 class="header-title">Growing spinner</h4>
+                                                <p class="sub-header">If you don’t fancy a border spinner, switch to the grow spinner. While it doesn’t technically spin, it does repeatedly grow!</p>
+            
+                                                <div class="">
+                                                    <div class="spinner-grow text-primary m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-grow text-secondary m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-grow text-success m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-grow text-info m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-grow text-warning m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-grow text-danger m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-grow text-purple m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    <div class="spinner-grow text-pink m-1" role="status">
+                                                        <span class="sr-only">Loading...</span>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+        
+                                    </div> <!-- end row -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/right-sidebar.html')
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>

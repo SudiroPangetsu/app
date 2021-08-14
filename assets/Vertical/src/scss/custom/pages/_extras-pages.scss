@@ -1,0 +1,339 @@
+// 
+// Extras pages.scss
+//
+
+// pricing
+
+
+.card-pricing{
+    box-shadow: $box-shadow-sm;
+    .card-pricing-features{
+        li{
+            padding: 15px;
+        }
+    }
+    .card-price{
+        font-size: 48px;
+        font-weight: 300;
+    }
+    &.active{
+        margin: 0 -24px;
+        box-shadow: $box-shadow;
+    }
+}
+
+
+// Maintenance
+
+.maintenance-icon {
+    height: 220px;
+    width: 220px;
+    margin: 0 auto;
+}
+  
+.line1 {
+    opacity: 0;
+    animation: fadeInLeft both 1s 0.4s, coding1 ease 6s 4s infinite;
+}
+  
+.line2 {
+    opacity: 0;
+    animation: fadeInLeft both 1s 0.6s, coding2 ease 6s 4s infinite;
+}
+  
+.line3 {
+    opacity: 0;
+    animation: fadeInLeft both 1s 0.8s, coding3 ease 6s 4s infinite;
+}
+  
+.line4 {
+    opacity: 0;
+    animation: fadeInLeft both 1s 1.0s, coding4 ease 6s 4s infinite;
+}
+  
+.line5 {
+    opacity: 0;
+    animation: fadeInLeft both 1s 1.2s, coding5 ease 6s 4s infinite;
+}
+  
+.line6 {
+    opacity: 0;
+    animation: fadeInLeft both 1s 1.4s, coding6 ease 6s 4s infinite;
+}
+  
+.line7 {
+    opacity: 0;
+    animation: fadeInLeft both 1s 1.6s, coding6 ease 6s 4s infinite;
+}
+  
+@keyframes coding1 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+    14% {
+      transform: translate(0, -10px);
+      opacity: 0;
+    }
+    15% {
+      transform: translate(0, 45px);
+    }
+    30% {
+      transform: translate(0, 40px);
+      opacity: 1;
+    }
+    45% {
+      transform: translate(0, 30px);
+    }
+    60% {
+      transform: translate(0, 20px);
+    }
+    75% {
+      transform: translate(0, 10px);
+    }
+    90% {
+      transform: translate(0, 5px);
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+}
+  
+@keyframes coding2 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+    15% {
+      transform: translate(0, -5px);
+      opacity: 1;
+    }
+    29% {
+      transform: translate(0, -10px);
+      opacity: 0;
+    }
+    30% {
+      transform: translate(0, 40px);
+    }
+    45% {
+      transform: translate(0, 30px);
+      opacity: 1;
+    }
+    60% {
+      transform: translate(0, 20px);
+    }
+    75% {
+      transform: translate(0, 10px);
+    }
+    90% {
+      transform: translate(0, 5px);
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+}
+
+@keyframes coding3 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+    15% {
+      transform: translate(0, -5px);
+    }
+    30% {
+      transform: translate(0, -10px);
+      opacity: 1;
+    }
+    44% {
+      transform: translate(0, -20px);
+      opacity: 0;
+    }
+    45% {
+      transform: translate(0, 30px);
+    }
+    60% {
+      transform: translate(0, 20px);
+      opacity: 1;
+    }
+    75% {
+      transform: translate(0, 10px);
+    }
+    90% {
+      transform: translate(0, 5px);
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+}
+
+@keyframes coding4 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+    15% {
+      transform: translate(0, -5px);
+    }
+    30% {
+      transform: translate(0, -10px);
+    }
+    45% {
+      transform: translate(0, -20px);
+      opacity: 1;
+    }
+    59% {
+      transform: translate(0, -30px);
+      opacity: 0;
+    }
+    60% {
+      transform: translate(0, 20px);
+    }
+    75% {
+      transform: translate(0, 10px);
+      opacity: 1;
+    }
+    90% {
+      transform: translate(0, 5px);
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+}
+
+@keyframes coding5 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+    15% {
+      transform: translate(0, -5px);
+    }
+    30% {
+      transform: translate(0, -10px);
+    }
+    45% {
+      transform: translate(0, -20px);
+    }
+    60% {
+      transform: translate(0, -30px);
+      opacity: 1;
+    }
+    74% {
+      transform: translate(0, -40px);
+      opacity: 0;
+    }
+    75% {
+      transform: translate(0, 10px);
+    }
+    90% {
+      transform: translate(0, 5px);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+}
+
+@keyframes coding6 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+    15% {
+      transform: translate(0, -5px);
+    }
+    30% {
+      transform: translate(0, -10px);
+    }
+    45% {
+      transform: translate(0, -20px);
+    }
+    60% {
+      transform: translate(0, -30px);
+    }
+    75% {
+      transform: translate(0, -40px);
+      opacity: 1;
+    }
+    89% {
+      transform: translate(0, -50px);
+      opacity: 0;
+    }
+    90% {
+      transform: translate(0, 10px);
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+}
+
+// coming soon
+
+.diamond {
+  margin: 50px auto;
+  height: 90px;
+  width: 120px;
+
+  &:after {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 44px;
+    background: rgba($dark,.1);
+    border-radius: 50%;
+    margin-top: 0;
+    margin-left: 38px;
+    z-index: 11;
+  }
+  .top {
+    height: 30px;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-bottom: 24px solid lighten($success, 4%);
+    &:after {
+      content: "";
+      position: absolute;
+      height: 24px;
+      width: 32px;
+      margin-top: 6px;
+      margin-left: 47px;
+      background: $success;
+      -ms-transform: skew(30deg, 20deg);
+      -webkit-transform: skew(30deg, 20deg);
+      transform: skew(48deg);
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      height: 24px;
+      width: 32px;
+      margin-top: 7px;
+      margin-left: -13px;
+      background: $success;
+      transform: skew(-48deg);
+    }
+  }
+  .bot {
+    height: 60px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid lighten($success, 4%);
+    &:before {
+      content: "";
+      position: absolute;
+      height: 60px;
+      margin-top: -60px;
+      margin-left: -27px;
+      border-left: 27px solid transparent;
+      border-right: 26px solid transparent;
+      border-top: 60px solid $success;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+// 
+// page-title.scss
+//
+
+.page-title-box {
+    position: relative;
+    background-color: $card-bg;
+    padding: 0 30px;
+    margin: 0 -30px 30px -30px;
+    box-shadow: $box-shadow;
+    
+    .page-title {
+        font-size: 18px;
+        margin: 0;
+        line-height: 60px;
+    }
+
+    .page-title-right {
+        float: right;
+        margin-top: 7px;
+    }
+    .breadcrumb {
+        background-color: transparent;
+        padding: .75rem 0;
+    }
+}
+
+
+@include media-breakpoint-down(sm) {
+    .page-title-box {
+        .page-title {
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            line-height: 70px;
+        }
+        .page-title-right {
+            display: none;
+        }
+    }
+}

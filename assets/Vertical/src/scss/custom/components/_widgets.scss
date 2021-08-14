@@ -1,0 +1,74 @@
+// 
+// widgets.scss
+//
+
+
+// Simple tile box
+
+.tilebox-two{
+    i{
+        font-size: 48px;
+        opacity: 0.2;
+        margin-top: 14px;
+    }
+}
+
+.user-position {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 44px;
+    font-size: 16px;
+    text-align: center;
+    right: 0;
+    left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  
+    span {
+      transform: rotate(90deg);
+    }
+}
+
+// Inbox-widget(Used Profile)
+.inbox-widget {
+    .inbox-item {
+        overflow: hidden;
+        padding: 12px 0px;
+        position: relative;
+
+        .inbox-item-img {
+            display: block;
+            float: left;
+            margin-right: 15px;
+            margin-top: 2px;
+
+            img {
+                width: 40px;
+            }
+        }
+
+        .inbox-item-author {
+            display: block;
+            margin-bottom: 0px;
+            color: $gray-700;
+        }
+
+        .inbox-item-text {
+            color: $gray-500;
+            display: block;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .inbox-item-date {
+            color: $gray-600;
+            font-size: 0.6875rem;
+            position: absolute;
+            right: 5px;
+            top: 10px;
+        }
+    }
+}

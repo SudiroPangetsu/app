@@ -1,0 +1,51 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Sriracha&display=swap');
+
+$primary:   #64b0f2;
+$success:   #1bb99a;
+$info:      #3db9dc;
+$warning:   #f1b53d;
+$danger:    #ff5d48;
+$purple:    #9261c6;
+$pink:      #ff7aa3;
+$white:     #ffffff;
+$dark:      #343a40;
+$muted:     #6c757d;
+
+// stylelint-disable
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #efefef;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$colors: (
+    "primary": $primary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "dark": $dark,
+    "muted": $muted,
+    "purple": $purple,
+    "pink": $pink,
+    "white": $white
+);
+
+
+$font-size-base : .95rem;
+
+$box-shadow:   0px 0px 35px 0px  rgba($gray-700, .15);
+
+
+$font-family-primary: 'Roboto', sans-serif;
+
+// Secondary font
+$font-family-secondary: 'Sriracha', cursive;
+
+$font-weight-medium: 500;
